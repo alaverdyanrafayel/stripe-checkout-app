@@ -1,0 +1,25 @@
+[ignore]
+/node_modules/*
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+
+
+# for webpack aliases
+module.name_mapper='helpers/\(.*\)' -> '<PROJECT_ROOT>/src/helpers/\1'
+module.name_mapper='configs/\(.*\)' -> '<PROJECT_ROOT>/src/configs/\1'
+module.name_mapper='api/\(.*\)' -> '<PROJECT_ROOT>/src/api/\1'
+
+
+
+# fow scss files
+module.file_ext=.scss
+module.name_mapper.extension='scss' -> 'empty/object'
+
+
+
+[strict]

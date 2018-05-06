@@ -1,0 +1,54 @@
+$fa-font-path: "../fonts/font-awesome";
+@import "~font-awesome/scss/font-awesome";
+
+@import "partials/SignUp";
+
+@import "partials/CheckOut";
+
+@import "partials/ComposedPlan";
+
+@import "partials/Payment";
+
+@import "partials/Frequency";
+
+@import "partials/Location";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.app-label {
+  font-size: 0.5em;
+  color: gray;
+  margin-bottom: 2px !important;
+}
+
+.app-credit-card-icon {
+  position: absolute;
+  bottom: 45px;
+  right: 30px;
+}
+.checkout-header {
+  font-size: 1.4em;
+  color: #20262a;
+  margin-bottom: 30px;
+  margin-top: 80px;
+  @media (max-width: 576px) {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+  }
+}
+.container {
+  position: relative;
+}
+label {
+  cursor: pointer;
+}
+.error {
+  color: red !important;
+  font-size: 0.750em !important;
+  height: 16px !important;
+  padding-top: 5px;
+}

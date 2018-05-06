@@ -1,0 +1,118 @@
+.right-side-content {
+  margin:auto;
+  margin-top: 45px;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
+  @media (max-width:768px)  {
+    padding-bottom: 20px;
+  }
+  @media (min-width:768px) and (max-width:1281px)  {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  background-color: #f8fafb;
+  .pickup-type {
+    margin-bottom: 40.5px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    @media (min-width:1281px)  {
+      margin-right: 4.5%;
+     }
+    height: 100.5px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 12px 0 rgba(217, 226, 233, 0.5);
+    .pickup-type-content {
+      @media (min-width:768px) and (max-width:1281px)  {
+        width: 90%;
+       }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+        h5 {
+          font-size: 0.875em;
+          font-weight: bold;
+          letter-spacing: 0.081em;
+          text-align: left;
+          color: #515151;
+          span {
+            font-size: 0.813em;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #c4c4c4;
+            display: block;
+          }
+        }
+      
+      img {
+        margin-right: 1.5em;
+        width: 3.438em;
+        height: 3.438em;
+        background-color: #ffeea3;
+        border: solid 1px #c0a454;
+        padding: 8px;
+        border-radius: 100%;
+      }
+    }
+   
+  }
+  
+  h4 {
+    margin-top: 66px;
+    font-size: 1.5em;
+    line-height: 1.33;
+    text-align: left;
+    color: #1b2125;
+  }
+  .select {
+    margin-top: 18px;
+    margin-bottom: 20px;
+    font-size: 0.75;
+    background: #f6fafb;
+  }
+  p {
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: left;
+    color: #788995;
+  }
+  .compost-frequency {
+    padding-top: 20px;
+    span {
+      font-size: 0.75em;
+      color: #acb6bf;
+    }
+    .right {
+      float: right;
+    }
+  }
+  .first-month {
+    span {
+      font-size: 0.925em;
+      line-height: 1.71;
+      text-align: left;
+      color: #788995;
+    }
+    .right {
+      float: right;
+    }
+  }
+  .monthly-fee {
+    span {
+      font-size: 1.056em;
+      line-height: 1.5;
+      text-align: left;
+      color: #1b2125;
+    }
+    .right {
+      float: right;
+    }
+  }
+}
+.promocode-input {
+  margin-bottom: 10px;
+}

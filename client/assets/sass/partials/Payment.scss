@@ -1,0 +1,120 @@
+$color1: #f4f4f4;
+$color2: #00b595;
+
+.app-payment-container {
+  width: 100%;
+  @media(min-width: 1281px) {
+    width: 80% !important;
+  }
+  .stripe-payment-form {
+    margin-top: 40px;
+  }
+  .stripe-payment {
+    margin-top: 80px;
+    @media(max-width: 576px) {
+      margin-top: 30px;
+    }
+    @media(min-width: 576px) {
+      margin-bottom: 40px;
+    }
+    .credit-card-header{
+      margin: 5px auto;
+      margin: 0 auto;
+      .credit-card-header-row{
+        margin-bottom: 37px;
+        font-size: 1.5em;
+      }
+      .credit-card {
+        display: flex;
+        @media(min-width: 576px) {
+          width: 85% !important;
+        }
+        
+        margin: auto;
+        justify-content: space-between;
+        .credit-card-images {
+          display: flex;
+          img {
+            height: 22.5px;
+            padding-left: 5px;
+          }
+        }
+        p {
+          font-size: 1.056em;
+          color: #1b2125;
+          font-weight: normal;
+        }
+      }
+      .credit-card-text{
+        @media(min-width: 576px) {
+          width: 60%;
+        }  
+        margin-left: 11%;
+      }
+    }
+  }
+  p {
+    font-size: 0.794em;
+    font-weight: 600;
+    text-align: left;
+    color: #d4d9dd;
+  }
+  .complete-trial{
+    @media (min-width: 568px) {
+      margin-bottom: 80px;
+      margin: auto;
+      margin-top: 77px;
+      width: 37%;
+      float: right;
+    }
+    @media (max-width: 568px) {
+      margin-left: 50%;
+      width: 80%;
+      transform: translateX(-50%);
+    }
+
+    font-size: 0.875em;
+    margin-top: 30px;
+    height: 57.2px;
+    border-radius: 3.2px;
+    border-color: #3cb69b !important;
+    background-color: #3cb69b;
+    box-shadow: 0 2px 7px 0 rgba(120, 137, 149, 0.26);
+    @media (max-width: 768px) {
+      padding-right: 23px;
+    }
+  }
+}
+.stripe-form {
+  @media (min-width: 1281px) {
+    width: 80%;
+  }
+  .exp-date {
+    @media (min-width: 768px) and (max-width: 1281px) {
+      padding-right: 0px;
+    }
+  }
+  margin: auto;
+}
+
+.StripeElement {
+  display: block;
+  width: 100%;
+  padding: 9px 6px 9px 6px;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.StripeElement--focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}

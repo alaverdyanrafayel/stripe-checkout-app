@@ -1,0 +1,85 @@
+.sign-up {
+  width: 100%;
+  @media(min-width: 1281px) {
+    width: 80% !important;
+  }
+  margin: 50px auto;
+  @media (max-width: 576px) {
+    margin: 0 auto;
+  }
+  .checkout-header{
+    font-size: 1.563em;
+    @media(max-width: 576px) {
+      margin-top: 20px;
+    }
+    text-align: left;
+    color: #1b2125;
+  }
+  p {
+    font-size: 0.813em;
+    font-weight: 600;
+    line-height: 1.23;
+    text-align: left;
+    color: #d4d9dd;
+  }
+  .first-name,
+  .email {
+    float: left;
+    width: 45%;
+  }
+  .last-name,
+  .phone {
+    float: right;
+    width: 45%;
+  }
+}
+.back-to-home {
+  position: absolute;
+  bottom: 0;
+  @media(max-width: 576px) {
+    bottom: -42px;
+    left: 87px;
+  }
+  @media(min-width: 768px) and  (max-width: 1024px){
+    margin-bottom: 405px;
+  }
+  @media(min-width: 1024px) and  (max-width: 1200px){
+        padding-bottom: 345px;
+  }
+  left: 15%;
+  font-size: 1.056em;
+  text-align: left;
+  color: #788995;
+  margin-bottom:129px;
+}
+.back-to-home:hover {
+  text-decoration: none;
+  color:#788995;
+}
+
+.autocomplete-dropdown-container {
+  position: absolute;
+  top: 60px;
+  z-index: 5;
+  width: 95%;
+  border-bottom: honeydew;
+  border-left: honeydew;
+  border-right: honeydew;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 2px 2px;
+}
+
+.autocomplete-suggestion-item {
+  font-size: 1em;
+  padding: 8px;
+  text-align: left;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.autocomplete-suggestion-item--active {
+  background-color: #fafafa;
+}
+
+

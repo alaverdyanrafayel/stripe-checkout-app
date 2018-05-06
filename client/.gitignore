@@ -1,0 +1,18 @@
+node_modules/
+.idea/
+.vscode/
+dist/
+
+nohup.out
+package-lock.json
+npm-debug.log
+junit.xml
+
+
+.DS_Store
+.DS_Store?
+
+coverage
+
+# dotenv environment variables file
+.env
